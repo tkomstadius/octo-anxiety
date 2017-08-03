@@ -4,9 +4,10 @@
   "description": "wat",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server",
     "build": "webpack",
     "watch": "webpack --watch",
-    "serve": "webpack-dev-server",
+    "serve": "webpack-dev-server --watch-content-base",
     "test": "jest"
   },
   "author": "",
@@ -17,14 +18,19 @@
     "babel-loader": "^7.1.1",
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
     "eslint": "^4.3.0",
     "eslint-loader": "^1.9.0",
     "eslint-plugin-react": "^7.1.0",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^2.30.1",
     "jest": "^20.0.4",
+    "style-loader": "^0.18.2",
     "webpack": "^3.4.1",
     "webpack-dev-server": "^2.6.1"
   },
   "dependencies": {
+    "normalize.css": "^7.0.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   }
