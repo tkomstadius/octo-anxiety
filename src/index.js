@@ -1,12 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import HelloPoo from './HelloPoo';
-import Header from './components/header/Header';
-import './base.css';
+import App from './App';
 
-import 'normalize.css';
+import './base.css';
 
 const root = document.getElementById('root');
 
-ReactDOM.render(<Header />, root);
+ReactDOM.render(<App />, root);

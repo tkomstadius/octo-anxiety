@@ -1,0 +1,23 @@
+{
+  "posts": [{
+      "title": "Cotton",
+      "slug": "fabric-cotton",
+      "excerpt": "Comes from the cotton bush.",
+      "content": "Comes from the cotton bush. The majority of clothes comes from this material. Cotton attracts moisture, can be washed at high temperatures but wrinkles easily. A lot of chemical pesticides is used at the plantations and it also takes large amounts of water. "
+    }, {
+      "title": "Alpaca",
+      "slug": "fabric-alpaca",
+      "excerpt": "It is wool from alpaca, a lama.",
+      "content": "It is wool from alpaca, a lama. The wool is very soft and does not contain the qwool fat that other types of wool does."
+    }, {
+      "title": "Silk",
+      "slug": "fabric-silk",
+      "excerpt": "It comes from the cocoon that the silkworm spins",
+      "content": "It comes from the cocoon that the silkworm spins around itself to transition into a butterfly. The cocoons are put in warm water to melt the glue that holds the cocoon together. This kills the animals."
+    }, {
+      "title": "Polyester",
+      "slug": "fabric-polyester",
+      "excerpt": "It is the most common syntetic fiber",
+      "content": "It is the most common sythetic fiber and one of the most common materials in our clothes. The fiber is strong and elastic. It is very much like plastic and is made out of petrolium. The process uses alot of very dangerous chemicals and when washed it releases alot of micro plastics that contaminate our waters."
+    }]
+}

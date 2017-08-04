@@ -1,36 +1,36 @@
 .header {
-    background: linear-gradient(to right, #A1D1A8, #3B5940);
+  background: linear-gradient(to right, #A1D1A8, #3B5940);
 }
 
 .container {
-    display: flex;
-    justify-content: space-between;
-    max-width: var(--site-width);
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: var(--site-width);
+  margin: 0 auto;
 }
 
 .title {
-    color: white;
-    font-style: italic;
-    font-size: 3.5rem;
-    text-transform: uppercase;
+  color: white;
+  font-style: italic;
+  font-size: 3.5rem;
+  text-transform: uppercase;
 }
 
 .list {
-    display: flex;
-    align-items: center;
-    height: 100%;
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 
 .header-link {
-    color: white;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 2rem;
-    margin-left: 2rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-left: 2rem;
 }
 
 .header-link:hover,
 .header-link:focus {
-    color: #D7F4DB;
+  color: #D7F4DB;
 }

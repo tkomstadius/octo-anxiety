@@ -1,0 +1,19 @@
+.title {
+  font-size: 3rem;
+  color: #3B5940;
+}
+
+.post-link {
+  color: #3B5940;
+}
+
+.post-link:focus,
+.post-link:hover {
+  color: #A1D1A8;
+  transition: color 0.3s ease;
+}
+
+.content {
+  font-size: 1.8rem;
+  line-height: 1.7;
+}

@@ -6,7 +6,11 @@ module.exports = {
     entry: resolve('./src/index.js'),
     output: {
         path: resolve('./dist'),
-        filename: 'bundle.js'
+        filename: 'bundle.js',
+        publicPath: '/'
+    },
+    devServer: {
+      historyApiFallback: true
     },
     module: {
         rules: [{
@@ -35,7 +39,7 @@ module.exports = {
     },
     devtool: 'cheap-module-eval-source-map',
     plugins: [
-        new HtmlPlugin({template: 'src/index.html'}),
+        new HtmlPlugin({template: 'src/index.html', title: 'Octo Anxiety'}),
         new ExtractTextPlugin({filename: 'styles.css'})
     ]
 }
